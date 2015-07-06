@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SampleProjectActivity!</string>
+    <string name="app_name">WenableRoboTest</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="title_bar_txt">Login</string>
+    <string name="welcome_screen_text">Welcome Screen</string>
+
+</resources>
