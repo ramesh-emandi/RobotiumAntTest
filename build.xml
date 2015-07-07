@@ -6,6 +6,7 @@
          Version Control Systems. -->
     <property file="local.properties" />
 
+
     <!-- The ant.properties file can be created by you. It is only edited by the
          'android' tool to add properties to it.
          This is the place to change some Ant specific build properties.
@@ -37,6 +38,11 @@
         <isset property="env.ANDROID_HOME" />
     </condition>
 
+<property name="android.buildtools.dir" location="${sdk.dir}/build-tools/22.0.1" />
+    <property name="aapt" location="${android.buildtools.dir}/aapt" />
+    <property name="aidl" location="${android.buildtools.dir}/aidl" />
+    <property name="dx" location="${android.buildtools.dir}/dx" />
+    <property name="zipalign" location="${android.buildtools.dir}/zipalign" />
     <!-- The project.properties file is created and updated by the 'android'
          tool, as well as ADT.
 
